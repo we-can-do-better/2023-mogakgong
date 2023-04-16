@@ -1,4 +1,4 @@
-name: workflow test
+name: update readme job
 on: 
   push:
     branches: [ master ]
