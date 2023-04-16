@@ -49,7 +49,7 @@ public class ReaderUtils {
             String newLine = createNewLine(joinMember);
 
             BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
-            writer.write("\n" + newLine);
+            writer.write(newLine);
             writer.close();
         } catch (IOException e) {
             throw new RuntimeException("날짜 칸 추가에 실패하였습니다.", e);
@@ -67,6 +67,10 @@ public class ReaderUtils {
     }
 
     public static void applyMemberBoard(List<String> lines) {
+        for (String line : lines) {
+            System.out.println("line = " + line);
+        }
+
         try {
             Path path = Paths.get(README_PATH);
             Files.write(path, lines, StandardCharsets.UTF_8);
