@@ -8,9 +8,9 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
 ext {
-	mainClass = "Application"
+	javaMainClass = "Application"
 }
 
 application {
-	mainClassName = mainClass
+	mainClassName = javaMainClass
 }
