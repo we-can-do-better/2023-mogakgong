@@ -14,3 +14,14 @@ ext {
 application {
 	mainClassName = javaMainClass
 }
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
