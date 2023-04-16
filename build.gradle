@@ -1,0 +1,16 @@
+plugins {
+	id 'java'
+	id "application"
+}
+
+group = 'com.mogakgong'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+ext {
+	mainClass = "Application"
+}
+
+application {
+	mainClassName = mainClass
+}
