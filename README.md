@@ -1,6 +1,10 @@
 # ✏️ 모각공
 
-[스터디 소개](https://jaesa5221.notion.site/3f2283ac086546f396ddb9e84c56e47e)
+### [스터디 소개](https://jaesa5221.notion.site/3f2283ac086546f396ddb9e84c56e47e)
+
+### [스터디 메뉴얼](https://github.com/we-can-do-better/2023-mogakgong/blob/main/.github/Manual.md)
+
+### [스터디 규칙](https://github.com/we-can-do-better/2023-mogakgong/blob/main/.github/Rule.md)
 
 <br/>
 
@@ -10,8 +14,6 @@
 2. **9시 40분까지** 오늘의 학습 목표를 깃헙에 작성합니다.
 3. **11시 40분까지** 각자의 학습 목표에 따라 학습합니다.
 4. **11시 40분이 되면** 모든 인원이 돌아가며 무엇을 배웠는지 발표하고, 질문을 나눕니다.
-
-<br/>
 
 ---
 
