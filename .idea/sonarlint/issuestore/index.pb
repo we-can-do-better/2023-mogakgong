@@ -5,16 +5,10 @@ D
 성재/03월07일.md,b\2\b2fa490fc2a837005366b8cdc15b8c2e53be2050
 E
 성재/04월 16일.md,1\2\120f2d8e38188d5d13b1a5b820e76e3a0d65dc8d
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 ;
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-S
-#.github/workflows/update-readme.yml,1\6\169d38b52ca28e6aac87d58773fec8bc673863cc
 `
 0src/main/java/com/mogakgong/utils/DateUtils.java,3\5\35b00027c93aefd12fd97ede22a8dc6a0b1ebbee
 \

@@ -1,7 +1,5 @@
-package com.mogakgong;
-
-import com.mogakgong.board.MemberBoard;
-import com.mogakgong.utils.ReaderUtils;
+import board.MemberBoard;
+import utils.ReaderUtils;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.mogakgong.utils;
+package utils;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static com.mogakgong.utils.DateUtils.FORMAT_TODAY_DATE;
+import static utils.DateUtils.FORMAT_TODAY_DATE;
 
 public class ReaderUtils {
 

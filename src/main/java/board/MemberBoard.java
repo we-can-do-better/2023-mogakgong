@@ -1,7 +1,7 @@
-package com.mogakgong.board;
+package board;
 
-import com.mogakgong.utils.DateUtils;
-import com.mogakgong.utils.ReaderUtils;
+import utils.DateUtils;
+import utils.ReaderUtils;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,8 +9,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import static com.mogakgong.utils.DateUtils.FORMAT_TODAY_DATE;
-import static com.mogakgong.utils.FixtureUtils.*;
+import static utils.DateUtils.FORMAT_TODAY_DATE;
+import static utils.FixtureUtils.*;
 
 public class MemberBoard {
 

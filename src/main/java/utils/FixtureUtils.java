@@ -1,4 +1,4 @@
-package com.mogakgong.utils;
+package utils;
 
 public class FixtureUtils {
     public static final String STUDY_MEMBER_HEADER = "## 스터디 멤버";
