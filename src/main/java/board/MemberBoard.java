@@ -38,12 +38,11 @@ public class MemberBoard {
         for (int i = 0; i < lines.size(); i++) {
             if(lines.get(i).equals(STUDY_MEMBER_HEADER)) return i;
         }
-        throw new RuntimeException("스터디 멤버 정보를 가져올 수 없습니다.");
+        throw new IllegalStateException("스터디 멤버 정보를 가져올 수 없습니다.");
     }
 
     public void updateBoard(List<String> lines) {
-        String lastLine = getLastLine(lines);
-        validateLatestDate(lastLine);
+        validateLatestDate(lines);
 
         // TODO: f(n^2) -> f(n) 으로 변경 가능한 지 고민해보기
         for (int i = 0; i < members.size(); i++) {
@@ -55,7 +54,7 @@ public class MemberBoard {
                 // 날짜가 일치할 경우 쓰기 작업
                 // 파일 이름이 [0416.md] 인 것은 Match 되지 않음
                 if (DateUtils.isMatchDate(matcher)) {
-                    refreshBoard(i, ReaderUtils.getReadmeFile());
+                    refreshBoard(i, lines);
                 }
             }
         }
@@ -65,13 +64,25 @@ public class MemberBoard {
         return lines.get(lines.size() - 1);
     }
 
-    private void validateLatestDate(String lastLine) {
+    private void validateLatestDate(List<String> lines) {
+        String lastLine = getLastLine(lines);
         String latestDate = lastLine.split(VERTICAL_SLASH)[1].trim();
 
         // 오늘 날짜의 테이블이 없는 경우 생성
         if (!isSameLatestDateAndNowDate(latestDate)) {
-            ReaderUtils.addLineWithDate(members.size());
+            System.out.println("====> CREATE LINE WITH NOW DATE");
+            lines.add(createNewLine(members.size()));
         }
+    }
+
+    private static String createNewLine(int joinMember) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("|").append(FORMAT_TODAY_DATE);
+        for (int i = 0; i < joinMember; i++) {
+            sb.append("|").append(" ");
+        }
+        System.out.println("==> Create New Line");
+        return sb.append("|").toString();
     }
 
     public boolean isSameLatestDateAndNowDate(String latestDate) {

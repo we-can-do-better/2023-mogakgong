@@ -5,7 +5,7 @@ import java.time.format.TextStyle;
 import java.util.Locale;
 import java.util.regex.Matcher;
 
-public class DateUtils {
+public final class DateUtils {
     public static final String FORMAT_TODAY_DATE = convertLocalDateToDateFormat(LocalDate.now()); // 23/4/8(토)
     private static final int TWO_THOUSAND_YEAR = 2000;
 
