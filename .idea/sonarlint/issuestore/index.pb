@@ -9,3 +9,11 @@ E
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
+D
+성재/05월02일.md,4\b\4b2f2e842d332d1d2747dbb67bfa4eac08ac3456
+G
+테스터/05월09일.md,c\9\c97eb891edfbdd0f59151999b15968820abe9758
+S
+#.github/workflows/update-readme.yml,1\6\169d38b52ca28e6aac87d58773fec8bc673863cc
+?
+.github/Rule.md,e\1\e1c3179f1daa05f7e20c2d103216394bce0f4445
