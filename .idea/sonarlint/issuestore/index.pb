@@ -11,11 +11,13 @@ E
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 D
 성재/05월02일.md,4\b\4b2f2e842d332d1d2747dbb67bfa4eac08ac3456
-G
-테스터/05월09일.md,c\9\c97eb891edfbdd0f59151999b15968820abe9758
 N
 src/main/java/Application.java,c\0\c02b58f69e810278d2d423bdee557628145ed943
 R
 "src/main/java/utils/DateUtils.java,4\6\46fa230ffdaa31bcb9a8a33f8b6e63f6f656440b
 U
 %src/main/java/utils/FixtureUtils.java,b\6\b6cbc4e61be1576c0c78002f26a96d92ab1f1b03
+T
+$src/main/java/utils/ReaderUtils.java,1\f\1f4c5f402bc2598c15a72042450b0e9a9a237b36
+T
+$src/main/java/board/MemberBoard.java,e\e\eeb061152c7756ad4e619efb9e641851f4514a3b
